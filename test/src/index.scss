@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans";
+  transition: all 0.4s;
+}
+.container {
+  max-width: 1990px;
+  margin: 0 auto;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+img {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+}
